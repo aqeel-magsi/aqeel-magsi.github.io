@@ -2,36 +2,159 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>content</title>
-        <link rel="stylesheet" type="text/css" href="Styles/Stylesheet.css" />     
-            <div id="content_area">
-                <img src="Aqeel_4" class="imgcontact" /><h3>Contact details</h3>
-<p>
-    Khurram Aslam
-</p>
-<p>
-   PostDoc fellow
-</p> 
-<p>
-   Office: 210E, Cascade Hall, 
-</p>
-<p>
-   Department of EarthSciences, 
-</p>
-<p>
-   University of Oregon, Eugene, OR 
-</p>
-
-<p>
-   Phone: 541-346-4573
-</p>
-<p>
-   email: kaslam@uoregon.edu
-</p>
+        <title>Home page Aslam</title>
+        <link rel="stylesheet" type="text/css" href="Styles/Stylesheet.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="banner">             
             </div>
             
-          <div id="sidebar">
-                <h4><i>Useful links</i></h4>
+            <nav id="navigation">
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="repositories.html">Repositories</a></li>
+                    <li><a href="extra_curr.html">Extra-curricular</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div id="content_area">
+                
+
+
+<h2>Khurram Aslam's personal webpage</h2>
+<!-- <img src="Images/new_profile.png" class="imgLeft" /> -->
+I am a Postdoctoral fellow at <a href="https://earthsciences.uoregon.edu/profiles/postdoctoral-scholars/"> University of Oregon </a>, Eugene, OR, USA since September 2019. My work focuses on modeling earthquake rupture propagation. I have done my PhD from <a href="https://www.memphis.edu/ceri/news/index.php">Center for earthquake research and information (CERI) </a> , U of Memphis, USA, and masters from <a href="https://www.ictp.it/">Abdus salam International center for theoretical physics, Trieste, Italy </a>. Additionally, I have also worked for oil and gas sector (Landmarks). My <a href="./docs/Khurram_resume.pdf"> Resume</a> and <a href="https://www.linkedin.com/in/khurram-shahzad-aslam-phd-19321020/">LinkedIn</a> has more information about myself. The details of some of my research projects are provided below:
+<br> 
+</br> 
+
+<h2> Research projects </h2>
+
+<img src="Images/stress.png" class="imgLeft" />
+<h3> Dynamic Earthquake Rupture Modeling </h3>
+<p>
+    I am currently working on physics-based simulations of earthquake rupture propagation on Cascadia subduction zone to understand shallow rupture process effects 
+    on the tsunami generation. I previously worked on rupture modeling of geometrically complex strike-slip faults to 
+    examine the off-fault stress changes resulting from dynamic fault slip. I consider many different realizations of the rough 
+    fault profile and use the output of the dynamic rupture simulations to calculate the Coulomb failure function (CFF) for each realization. 
+    Details of the project are available in pdfs present in my publication page.
+</p>
+
+<img src="Images/cycle_model.png" class="imgRight"/>
+<h3>Earthquake Cycle Modeling</h3>
+<p>
+    I performed physics-based simulations of earthquake cycles to understand the coupling of slow-slip regions with regions of earthquakes.
+    The modeling work shows how the rupture can penetrate into the region of slow slip and result in higher seismis hazard. 
+    Details of the work is provided in publication section. I also coupled the short-term (dynamic) phase and the long-term (quasi-static) phase
+of an earthquake to understand the physics of an earthquake cycle. I did it by solving the dynamic phase first and then the quasi-static phase of an earthquake. 
+For solving the quasi-static phase, we consider finite element method to solve the momentum balance equation. 
+The inertia term is damped using mass scaling technique. The codes are present in the repositories link in my webpage. Details 
+of the project are available in pdfs present in my publication page.
+</p>
+
+
+<img src="Images/power.png" class="imgLeft" />
+<h3> Seismic Ambient noise </h3>
+<p>
+   We (I and my collaborators) processed the seismic ambient noise data for few years from the New Madrid seismic region. The data was used to find the major  
+   direction of the ambient noise sources and also to observe the embayment edge generated surface waves. We used beam forming, SNR ratio and relative amplitude 
+   approach to find the sources. additionally, we also looked at the change in seismic velocity relation as a function of time with the climatological data. 
+    Details of the project are available in pdfs present in my publication page. The ML code is present in repositories link.
+</p>
+
+
+
+<img src="Images/ML-01.png" class="imgRight" />
+<h3>Machine Learning </h3>
+<p>
+   We (I and my collaborators of the project) estimated the max. possible magnitude of an induced earthquake in 
+    Oklahoma using Machine learning approach. We do this by running multiple ruptures on a complex strike-slip fault with inherent fault roughness. The rupture nucleation is provided through the elevated
+    pore pressure. We use full length of the fault (400 parameter), stresses ( 3 parameters), Slip weakening law (3 parameters), RMS height of fault (1 parameter) with 4000 rupture simulations to train
+    our model for a regression problem that can predict earthquake magnitudes. To train a model, we use neural networks with three hidden layers and 10 units in each layer. This work is build upon a previous
+    study done by our group (Elizabeth Gilmour). Details of the project are available in pdfs present in my publication page. The ML code is present in repositories link.
+</p>
+
+<img src="Images/waveform.png" class="imgLeft"/>
+<h3>Full 3D waveform Modeling</h3>
+<p>
+    I perform three-dimensional (3D) deterministic
+earthquake ground motion simulations for the northern Canterbury plains,
+Christchurch and the Banks Peninsula region of New Zealand, which explicitly incorporate the
+effects of the surface topography. The simulations are done using Hercules, an
+octree-based finite-element parallel software for solving 3D seismic wave
+propagation problems in heterogeneous media under kinematic faulting. We
+describe the efforts undertaken to couple Hercules with the South Island Velocity
+Model (SIVM), which included changes to the SIVM code in order to allow for single
+repetitive queries and thus achieve a seamless final-element meshing process
+within the end-to-end approach adopted in Hercules. Details 
+of the project are avaliable in pdfs present in my publication page.
+
+            </div>
+            
+            <div id="sidebar">
+                <h4><i> News and Useful links</i></h4>
+<p>
+<a href="./docs/Khurram_resume.pdf"> Khurram_Resume</a>, <a href="https://www.linkedin.com/in/khurram-shahzad-aslam-phd-19321020/"> Khurram_LinkedIn</a>
+</p>
+
+<marquee direction="up" width="250" height="180">
+
+
+    <p>
+    I am going to Attend SSA (Seismological Society of America) meeting on <font color="blue"> 29 April, 2020 at Alberququee, NM,USA </font>.
+    </p>    
+
+    <p>
+    I am going to Attend SZD (Subduction zone dynamics) workshop  on <font color="blue"> 15 Oct, 2019 at UO, Eugene, OR, USA </font>.
+    </p>  
+    <p>
+
+    I am going to Attend SSA (Seismological Society of America) meeting on <font color="blue"> 23-26 April, 2019 at Seatle, Washington </font>.
+    </p>
+    
+    <p>
+    Attending AGU (American Geophysical Union) Conference on <font color="blue"> 10-14 Dec, 2018 at Washington, DC </font>.
+    </p>
+ 
+    <p>
+    Attending Rupture modelers meeting on <font color="blue"> 29th Nov, 2018 at Pomona, CA </font>.
+    </p>
+
+    <p>
+    Attending SEAS (earthquake cycle modelers) meeting on <font color="blue"> 28th Nov, 2018 at Pomona, CA </font>.
+    </p>
+
+    <p>
+    Attending SCEC (Southern California earthquake center) annual meeting on <font color="blue">9-13 Sept, 2018 at Palm Springs, CA </font>.
+    </p>    
+
+
+ 
+
+
+    <p>
+    Interviewed by ICTP institure. The link provides my interview on the graduation day from ICTP, Italy.
+    <a href="https://www.ictp.it/about-ictp/media-centre/news/news-archive/2012/8/khurram-aslam.aspx"> Khurram interview by ICTP</a>
+    </p>
+    <p>
+    The link provides Khurram Aslam's resume.
+    <a href="./docs/Khurram_resume.pdf"> Resume</a>
+    </p>
+    
+    <p>
+    Link to my LinkdIn <a href="https://www.linkedin.com/in/khurram-shahzad-aslam-phd-19321020/"> Khurram LinkdIn</a>
+    </p>
+</marquee>
+                
+
+
+<img src="Images/uofm.png" class="imgLeft" />
+<p>
+    <a href="https://pages.uoregon.edu/amthomas/index.html">Our group at UO</a>
+</p> 
+
 <img src="Images/eric_page.png" class="imgLeft" />
 <p>
     <a href="http://www.ceri.memphis.edu/people/egdaub/index.html">Source Physics Group - CERI</a>
@@ -41,30 +164,23 @@
 <p>
     <a href="http://www.ceri.memphis.edu">CERI - University of Memphis</a>
 </p> 
-<img src="Images/uofm.png" class="imgLeft" />
+
+<img src="Images/uo_banner.png" class="imgLeft" />
 <p>
-    <a href="https://www.memphis.edu/">University of Memphis</a>
+    <a href="hhttps://earthsciences.uoregon.edu/"> Earthsciences- University of Oregon</a>
 </p> 
 
-<h4><i>News</i></h4>
-<p>
-   The link provides my interview on the graduation day from ICTP, Italy. 
-    <a href="https://www.ictp.it/about-ictp/media-centre/news/news-archive/2012/8/khurram-aslam.aspx"> Khurram interview by ICTP</a>
-</p> 
-<p>
-   The link provides Khurram Aslam's resume. 
-    <a href="./docs/Khurram_resume.pdf"> Resume</a>
-</p>
 
-<p> 
-    Link to my LinkdIn <a href="https://www.linkedin.com/in/khurram-shahzad-aslam-phd-19321020/"> Khurram LinkdIn</a>
-</p> 
+
+
+
                  
             </div>
             
             <footer>
-                <p>The page was last updated on 8th Oct, 2018. Please refer to news for updates</p>
+                <p>The page was last updated on 21st Sept, 2020. Please refer to news for updates</p>
             </footer>
         </div>
     </body>
 </html>
+
