@@ -21,7 +21,7 @@ body p
 
 #banner
 {
-    background-image: url("https://developer-blogs.nvidia.com/wp-content/uploads/2021/05/earthquake-3167693_1920.jpg");
+    background-image: url(../images/earthquake-3167693_1920.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     /*background-size: 65vw 12vh;*/
