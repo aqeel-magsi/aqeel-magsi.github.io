@@ -26,7 +26,8 @@ body p
     background-repeat: no-repeat;
     background-size: cover;
     /*background-size: 65vw 12vh;*/
-    border: 5px solid #dedede;    
+    border: 5px solid #dedede;
+    height: 150px;
 }
 
 #content_area
