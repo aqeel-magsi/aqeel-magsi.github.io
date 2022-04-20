@@ -27,7 +27,7 @@ body p
     background-size: cover;
     /*background-size: 65vw 12vh;*/
     border: 5px solid #dedede;
-    width: 100px;
+    height: 100px;
 }
 
 #content_area
