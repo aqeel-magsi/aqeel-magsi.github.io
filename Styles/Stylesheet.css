@@ -17,6 +17,8 @@ body p
     margin: 0 auto;
     padding: 10px;
     border: 5px solid #dedede;
+    height: 320px;
+
 }
 
 #banner
@@ -26,7 +28,6 @@ body p
     background-size: cover;
     /*background-size: 65vw 12vh;*/
     border: 5px solid #dedede;
-    height: 390px;
 }
 
 #content_area
