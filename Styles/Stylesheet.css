@@ -10,6 +10,26 @@ body p
     line-height: 1.28;
 }
 
+
+#line_spacing 
+
+div.a {
+  line-height: 10px;
+}
+
+div.b {
+  line-height: 30px;
+}
+
+div.c {
+  line-height: 0.5cm;
+}
+
+div.d {
+  line-height: 1cm;
+}
+
+
 #wrapper
 {
     width: 1080px;
