@@ -149,6 +149,15 @@ footer
     padding: 10px;
 }
 
+.imgcenter
+{
+    float: left;
+    width: 150px;
+    height: 170px;
+    margin: 0px 10px 10px 0;
+    padding: 10px;
+}
+
 .imgcontact
 {
     float: left;
