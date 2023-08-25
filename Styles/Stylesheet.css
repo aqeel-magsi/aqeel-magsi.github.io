@@ -138,8 +138,8 @@ footer
     height: 150px;
     margin: 0px 10px 10px 0;
     padding: 10px;
+    box-sizing: border-box;
     object-position: center;
-    border-radius: 50%;
 }
 
 .imgRight
