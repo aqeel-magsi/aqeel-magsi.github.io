@@ -153,13 +153,24 @@ footer
     padding: 10px;
 }
 
-.imgcenter {
+.imgcenter1 {
     display: inline-block;
     width: 200px;
     height: 200px;
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.imgcenter
+{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0px 10px 10px 0;
+    padding: 10px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
