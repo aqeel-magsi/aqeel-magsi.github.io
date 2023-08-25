@@ -135,10 +135,9 @@ footer
 {
     float: left;
     width: 240px;
-    height: 150px;
+    height: 190px;
     margin: 0px 10px 10px 0;
     padding: 10px;
-    box-sizing: border-box;
     object-position: center;
 }
 
