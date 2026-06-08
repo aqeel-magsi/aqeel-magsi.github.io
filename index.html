@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Aqeel Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqeel Abbas | Seismology</title>
     <link rel="stylesheet" type="text/css" href="Styles/Stylesheet.css" />
     <style>
         .blink {
@@ -14,19 +15,13 @@
             color: blue;
             border-radius: 3px;
         }
-        
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-            }
-        }
+        @keyframes blinker { 50% { opacity: 0; } }
     </style>
 </head>
 <body>
     <div id="wrapper">
-        <div id="banner">
-        </div>
-        
+        <div id="banner"></div>
+
         <nav id="navigation">
             <ul id="nav">
                 <li><a href="index.html">Home</a></li>
@@ -36,231 +31,106 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
         <div id="content_area">
-            <h2>Aqeel Abbas's Personal Webpage</h2>
-            <img src="Images/aqeel1.jpeg" class="imgcenter" />
-<!-- <img src="Images/aqeel1.jpeg" class="imgcenter" /> -->
+            <h2>Aqeel Abbas</h2>
+            <img src="Images/aqeel1.jpeg" class="imgcenter" alt="Aqeel Abbas" />
 
-<div class="b"> I am a postdoctoral researcher at <a href="https://www.sri.cuhk.edu.hk/">Shenzhen Research Institute</a>, 
-The Chinese University of Hong Kong, since December, 2024. My work focuses on Induced Earthquakes in the Sichuan Basin, China.  
-I completed my PhD at <a href="https://www.cuhk.edu.hk/sci/essc/people/abbas_aqeel.html">The Chinese University of Hong Kong</a>,  
-Hong Kong SAR, in September 2024. 
-Additionally, my <a href="./docs/Aqeel_Resume_CUHK.pdf">Resume</a> and <a href="https://www.linkedin.com/in/aqeelkhan14125/">LinkedIn</a>  
-have more information about me. The details of some of my research projects are provided below:
+            <div class="b">
+                I am a postdoctoral researcher at the <a href="https://www.sri.cuhk.edu.hk/">Shenzhen Research Institute</a>,
+                The Chinese University of Hong Kong. I completed my Ph.D. in Earthquake Seismology at
+                <a href="https://www.cuhk.edu.hk/sci/essc/people/abbas_aqeel.html">The Chinese University of Hong Kong</a>
+                in September 2024. My research focuses on induced seismicity, waveform-based earthquake analysis,
+                seismic attenuation, ambient-noise interferometry, and clock-drift inspection and correction for temporary
+                seismic arrays. My current work focuses on fluid-induced earthquakes and dense-array observations in the
+                Sichuan Basin, China.
+                <br><br>
+                More information is available in my <a href="./docs/Aqeel_Resume_CUHK.pdf">resume</a>,
+                <a href="https://scholar.google.com/citations?user=lHj_SJMAAAAJ&hl=en">Google Scholar</a>, and
+                <a href="https://www.linkedin.com/in/aqeelkhan14125/">LinkedIn</a> profiles.
+            </div>
 
-<br> 
-</div> 
-                
-<br>           
-<h2> Research projects </h2>
+            <br>
+            <h2>Research Projects</h2>
 
-<img src="Images/HF2.png" class="imgLeft" />
-<h3> Induced Earthquakes </h3>
-<div class="b">
-    Hydraulic Fracturing (HF) often stimulates the local earthquake productivity which provides a unique opportunity to characterize the 
-    crustal heterogeneities, reservoir properties, and fluid injection effects. However, the velocity models acquired solely based on the
-    arrival time records are often undermined due to the seismic network coverage and interpolation techniques. Instead, we adopt the 
-    waveform-based approach to apprehend; (1) structural heterogeneities, (2) reservoir distribution, and (3) signatures of the injected
-    fluid in the Weiyuan shale gas field (WSGF),Sichuan China. 
-    Furthermore, understanding the role of injected fluid in induced earthquakes and mitigating associated seismic hazards is crucial.
-    To achieve this, we will develop a 3D attenuation tomography model to estimate the absorption and scattering effects in the study region.
-<br> 
-    
-<br>
+            <div class="project-card">
+                <img src="Images/HF2.png" class="imgLeft" alt="Induced earthquakes" />
+                <h3>Induced Earthquakes and Fluid-Driven Seismicity</h3>
+                <div class="b">
+                    Hydraulic fracturing can change local earthquake productivity and provides an opportunity to image
+                    crustal heterogeneity, reservoir structure, and fluid-injection effects. My work combines dense-array
+                    waveform analysis, high-resolution earthquake catalogs, relocation, attenuation measurements, and
+                    waveform-based indicators to understand induced seismicity in the Weiyuan shale gas field, Sichuan Basin.
+                </div>
+            </div>
 
-</div> 
-                
-<img src="Images/Figure11_NCCF_Land.jpeg" class="imgRight"/>
-<h3>Clock Drift Inspection and Correction in Seismic Data</h3>
-<!--<p> -->
-<div class="b">
-    Temporary seismic network deployments are widely used both on land and offshore to improve our understanding of earthquake processes and the internal structure of the Earth.
-    However, some temporary stations suffer from incorrect timing records and thus pose a challenge to fully utilize the valuable data.
-    To inspect and fix such time problems, we examine the OBS data from the Mariana subduction zone and land data from a dense array deployed in
-    the Weiyuan shale gas field, Sichuan, China.
-    Initially, we inspected the teleseismic and local events waveforms to evaluate the overall clock drift and data quality in both datasets.
-    Later, the ambient noise cross-correlation function (NCCF) is adopted by using daily waveforms with different stratigies for both Land and OBS datasets.
-    All the clock drifts in both dataset are successfully analysed and corrected. 
-    The codes are avaible upon request at <font color="blue"> aqeelabbas(@)link.cuhk.edu.hk </font>. Deatils of the project are available in pdfs present in my publication page.
-<br> 
-<br>
+            <div class="project-card">
+                <img src="Images/Figure11_NCCF_Land.jpeg" class="imgRight" alt="Clock drift correction" />
+                <h3>Clock-Drift Inspection and Correction in Seismic Data</h3>
+                <div class="b">
+                    Temporary seismic deployments are valuable for earthquake monitoring, but timing problems can reduce
+                    the reliability of waveform analysis. I use local earthquakes, teleseismic waveforms, and ambient-noise
+                    cross-correlation functions to diagnose and correct timing offsets in land and ocean-bottom seismic data.
+                    This work supports robust earthquake detection, association, relocation, and waveform interpretation.
+                </div>
+            </div>
 
-</div> 
-                
-                
-<!--
-<img src="Images/power.png" class="imgLeft" />
-<h3> Seismic Ambient noise </h3>
-<div class="b">
-   We (I and my collaborators) processed the seismic ambient noise data for few years from the New Madrid seismic region. The data was used to find the major  
-   direction of the ambient noise sources and also to observe the embayment edge generated surface waves. We used beam forming, SNR ratio and relative amplitude 
-   approach to find the sources. additionally, we also looked at the change in seismic velocity relation as a function of time with the climatological data. 
-    Details of the project are available in pdfs present in my publication page. The ML code is present in repositories link.
-<br> 
-<br> <br>
-
-</div> -->
-
-<img src="Images/image.png" class="imgRight" />
-<h3> Ocean Bottom Seismic (OBS) Data Processing and interpretation </h3>
-             
-<div class="b">
-   The continental margin of the northern South China Sea (SCS) is an excellent region to study the lithosphere rifting and breakup process.
-    It has undergone a transition from an active to passive continental margin during its tectonic evolution. The nature of transitional crust is a key to
-    unlocking the evolution process, and becomes a subject of intense studies. In order to understand the complex crustal features and magmatism along the
-    transition zone, high resolution seismic structures should be imaged. We construct P-wave velocity (Vp) structures by using
-    2-D forward ray-tracing (RayInvr) and travel-time tomography (Tomo2D) based on ocean bottom seismic (OBS) and multiple channel reflection seismic (MCS)
-    data acquired along a geophysical profile 2017-1. The obtained model revealed the variation in crustal structure, characteristics of transitional crust
-    and formation of high velocity layer beneath the lower crust in the northern SCS.
-<br> 
-</div>
-                
-                
-</div>
-            
-<style>
-    #sidebar {
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
-
-    #sidebar h4 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
-    #sidebar p {
-        margin-bottom: 10px;
-    }
-    .social-icons {
-        display: flex;
-        margin-top: 20px;
-    }
-    
-    .social-icons a {
-        display: inline-block;
-        margin-right: 15px;
-    }
-    
-    .social-icons img {
-        width: 50px;
-        height: 50px;
-    }
-</style>
-
-
-<div id="sidebar">
-    <h4><i>News and Useful links</i></h4>
-
-    
-     <!-- <div id="blinkNews" class="blink">Outstanding Student Award 2023</div> -->
-<div id="blinkNews" class="blink">
-  <a href="Images/OSA_CUHK.png" target="_blank">Outstanding Student Award 2023</a> </div> 
-     <div class="social-icons">
-        <a href="https://scholar.google.com/citations?user=lHj_SJMAAAAJ&hl=en" target="_blank">
-            <img src="Images/pngegg.png" alt="Google Scholar" />
-        </a>
-        <a href="https://www.researchgate.net/profile/Aqeel-Abbas-6" target="_blank">
-            <img src="Images/rg_logo.png" alt="ResearchGate" />
-        </a>
-        <a href="https://orcid.org/0000-0002-6133-6857" target="_blank">
-            <img src="Images/orcid.png" alt="ORCID" />
-        </a>
-        <a href="https://github.com/aqeel-magsi" target="_blank">
-            <img src="Images/github.png" alt="GitHub" />
-        </a>
-     </div>
-
-<marquee direction="up" width="250" height="180" scrollamount="3.5">
-
-             <p>
-            Reaching Out Award 2023/24, The Chinese University of Hong Kong.
-            </p> 
-            <p>
-            SZ4Grads Spring Webinar Series,14 March 2024, <font color="blue"> <a href="./Images/S4ZD.jpeg"> Aqeel ABBAS</a> </font>.
-            </p> 
-    
-            <p>
-            Excellent Paper Award 2023, Earthquake Research Advances
-            </p> 
-    
-            <p>
-            Outstanding Student Award 2023, The Chinese University of Hong Kong
-            </p> 
-
-            <p>
-            PhD International Mobility for Partnerships and Collaborations Award for 2023–24
-            </p> 
-    
-            <p>
-            Certificate of attendence from Internation Union of Geodesy and Geophysics (IUGG) <font color="blue"> <a href="./docs/IUGG_2023_-_CERTIFICATE_OF_ATTENDANCE.pdf"> Certificate</a> </font>.
-            </p> 
-            
-
-            
-            <p>
-            Attending InnoCarnival 2022 at Hong Kong Science Park (HKSP) on <font color="blue"> 22-30 October, 2022 at Hong Kong S.A.R </font>.
-            </p>    
-
-    
-            <!-- 
-            <p>
-            New article about clock drift in seismic data (Earthquake Research Advances) <font color="blue"> <a href="https://www.sciencedirect.com/science/article/pii/S2772467022000902"> Online Version</a> </font>.
-            </p> 
-
-            <p>
-            Attending AGU (American Geophysical Union) Conference on <font color="blue"> 13-17 Dec, 2021 (Virtual)  </font>.
-            </p>
-         
-            <p>
-            Attending South China Sea IODP Expeditions 367,368 and 368X Science (2nd ) Post Cruise Meeting on <font color="blue"> 8-10 Sep, 2019 at Xian, China </font>.
-            </p>  
-            <p>
-        
-            Attending Student Summer Workshop & Poster presentation in Earth and Atmospheric Sciences Programme on <font color="blue"> 9-11 July, 2019 at the Chinese University of Hong Kong  </font>.
-            </p>
-    
-            <p>
-            The link provides Aqeel's Webpage at CUHK.
-            <a href="./docs/Aqeel_resume_github.pdf"> Resume</a>
-            </p>
-            
-            <p>
-            Link to my LinkdIn <a href="https://www.linkedin.com/in/aqeelkhan14125/"> Aqeel LinkdIn</a>
-            </p>
-
-            -->
-
-</marquee>
-                
-
-            
-            <img src="Images/yang.png" class="imgLeft" />
-            <p>
-                <a href="http://www.cuhk.edu.hk/sci/essc/yang/">Seismology group at CUHK</a>
-            </p> 
-            
-            <img src="Images/essc.png" class="imgLeft" />
-            <p>
-                <a href="https://www.cuhk.edu.hk/sci/essc/">Earth System Science</a>
-            </p> 
-            
-            <img src="Images/zju.png" class="imgLeft" />
-            <p>
-                <a href="https://person.zju.edu.cn/en/cfli"> Research Group at ZJU</a>
-            </p> 
-            
-            <img src="Images/tut_cuhk.png" class="imgLeft" />
-            <p>
-                <a href="https://cuseistut.readthedocs.io/en/latest/intro/index.html#">Seismology Tutorial -Yang's group at CUHK</a>
-            </p> 
-                 
-</div>
-            
-            <footer>
-              <p>The page was last updated on 27 March, 2024. Please refer to news for updates</p>
-            </footer>
+            <div class="project-card">
+                <img src="Images/image.png" class="imgRight" alt="OBS data processing" />
+                <h3>Ocean-Bottom Seismic Data Processing and Crustal Structure</h3>
+                <div class="b">
+                    I have worked on ocean-bottom seismic and multichannel seismic datasets from the northern South China Sea
+                    to study lithospheric rifting, transitional crust, and lower-crustal high-velocity structures using forward
+                    ray tracing and travel-time tomography.
+                </div>
+            </div>
         </div>
-    </body>
-</html>
 
+        <div id="sidebar">
+            <h4><i>News and Useful Links</i></h4>
+
+            <div id="blinkNews" class="blink">
+                <a href="Images/OSA_CUHK.png" target="_blank">Outstanding Student Award 2023</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://scholar.google.com/citations?user=lHj_SJMAAAAJ&hl=en" target="_blank">
+                    <img src="Images/pngegg.png" alt="Google Scholar" />
+                </a>
+                <a href="https://www.researchgate.net/profile/Aqeel-Abbas-6" target="_blank">
+                    <img src="Images/rg_logo.png" alt="ResearchGate" />
+                </a>
+                <a href="https://orcid.org/0000-0002-6133-6857" target="_blank">
+                    <img src="Images/orcid.png" alt="ORCID" />
+                </a>
+                <a href="https://github.com/aqeel-magsi" target="_blank">
+                    <img src="Images/github.png" alt="GitHub" />
+                </a>
+            </div>
+
+            <p>Postdoctoral researcher, Shenzhen Research Institute, The Chinese University of Hong Kong.</p>
+            <p>Research focus: induced seismicity, dense-array seismology, ambient-noise analysis, and clock-drift correction.</p>
+            <p><a href="./docs/Aqeel_Resume_CUHK.pdf">Resume</a></p>
+            <p><a href="publications.html">Publications</a></p>
+            <p><a href="repositories.html">Research code and repositories</a></p>
+
+            <h4><i>Research Links</i></h4>
+            <img src="Images/yang.png" class="imgLeft" alt="CUHK Seismology Group" />
+            <p><a href="http://www.cuhk.edu.hk/sci/essc/yang/">Seismology Group at CUHK</a></p>
+
+            <img src="Images/essc.png" class="imgLeft" alt="Earth System Science" />
+            <p><a href="https://www.cuhk.edu.hk/sci/essc/">Earth System Science</a></p>
+
+            <img src="Images/zju.png" class="imgLeft" alt="Zhejiang University" />
+            <p><a href="https://person.zju.edu.cn/en/cfli">Research Group at ZJU</a></p>
+
+            <img src="Images/tut_cuhk.png" class="imgLeft" alt="CUHK Seismology Tutorial" />
+            <p><a href="https://cuseistut.readthedocs.io/en/latest/intro/index.html#">Seismology Tutorial - Yang's group at CUHK</a></p>
+        </div>
+
+        <footer>
+            <p>The page was last updated in June 2026. Please refer to the news and publication pages for updates.</p>
+        </footer>
+    </div>
+</body>
+</html>
